@@ -85,7 +85,7 @@ class ThemeModule : PyonModule() {
 
     fun hookTheme() {
         val themeManager = param.classLoader.loadClass("com.discord.theme.utils.ColorUtilsKt")
-        val darkTheme = param.classLoader.loadClass("com.discord.theme.DarkTheme")
+        val darkTheme = param.classLoader.loadClass("com.discord.theme.DarkerTheme")
         val lightTheme = param.classLoader.loadClass("com.discord.theme.LightTheme")
 
         val theme = this.theme
